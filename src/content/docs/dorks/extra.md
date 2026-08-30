@@ -6,6 +6,8 @@ title: "Extra"
 
 ### GitHub
 
+![alt text](image.png)
+
 - [Advanced Search Syntax Guide](https://docs.github.com/en/search-github/searching-on-github/searching-code)
 - [GitHub Advanced Search UI](https://github.com/search/advanced)
 
@@ -28,9 +30,9 @@ title: "Extra"
   - [SSH Private Keys](https://github.com/search?q=filename%3Aid_rsa+%22BEGIN+OPENSSH+PRIVATE+KEY%22&type=code)
 
 - **Configuration & Environment Files**
-  - [Django Settings Secrets](https://github.com/search?q=filename%3Asettings.py+SECRET_KEY&type=code)
-  - [WordPress DB Credentials](https://github.com/search?q=filename%3Awp-config.php+DB_PASSWORD&type=code)
-  - [NPM Auth Tokens](https://github.com/search?q=filename%3Anpmrc+_authToken&type=code)
+  - [Django Settings Secrets](https://github.com/search?q=path%3A**%2Fsettings.py+SECRET_KEY&type=code)
+  - [WordPress DB Credentials](https://github.com/search?q=path%3A**%2Fwp-config.php+DB_PASSWORD&type=code)
+  - [NPM Auth Tokens](https://github.com/search?q=path%3A**%2Fnpmrc+_authToken&type=code)
 
 ---
 
