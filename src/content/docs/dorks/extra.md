@@ -6,8 +6,6 @@ title: "Extra"
 
 ### GitHub
 
-![alt text](image.png)
-
 - [Advanced Search Syntax Guide](https://docs.github.com/en/search-github/searching-on-github/searching-code)
 - [GitHub Advanced Search UI](https://github.com/search/advanced)
 
