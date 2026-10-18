@@ -1,0 +1,13 @@
+title: Passive Information Gathering
+nav:
+- index.md
+- website-recon-and-footprinting.md
+- whois-enumeration.md
+- netcraft.md
+- dns.md
+- identify-if-site-is-protected-by-firewall-or-proxy-wafw00f.md
+- subdomain-enumeration-sublist3r.md
+- theharvester-borked.md
+- email-gathering.md
+- leaked-password-databases.md
+- certificates.md

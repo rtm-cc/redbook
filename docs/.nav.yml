@@ -1,0 +1,11 @@
+nav:
+- index.md
+- introduction.md
+- stages-of-ethical-hacking
+- system-host-based-attacks
+- dorks
+- phishing
+- osint
+- data-exfiltration
+- owasp
+- cheat-sheet

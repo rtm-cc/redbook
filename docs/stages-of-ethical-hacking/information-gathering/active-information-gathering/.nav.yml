@@ -1,0 +1,12 @@
+title: Active Information Gathering
+nav:
+- index.md
+- dns-zone-transfers.md
+- nmap.md
+- netdiscover.md
+- amass.md
+- fping.md
+- rustscan.md
+- sqlmap.md
+- shodan.md
+- nikto.md

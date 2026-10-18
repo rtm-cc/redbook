@@ -1,17 +1,12 @@
 {
-  "name": "redbook-temp",
+  "name": "redbook",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "description": "The Red Book powered by Zensical",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "@astrojs/starlight": "^0.39.3",
-    "astro": "^6.3.1",
-    "sharp": "^0.34.5"
+    "dev": "uv tool run zensical serve -a 127.0.0.1:4321 || zensical serve -a 127.0.0.1:4321",
+    "start": "uv tool run zensical serve -a 127.0.0.1:4321 || zensical serve -a 127.0.0.1:4321",
+    "build": "uv tool run zensical build || zensical build",
+    "preview": "uv tool run zensical serve -a 127.0.0.1:4321 || zensical serve -a 127.0.0.1:4321"
   }
 }

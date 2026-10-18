@@ -1,0 +1,8 @@
+title: SMB
+nav:
+- index.md
+- windows-discover-and-mount.md
+- nmap-scripts.md
+- smbmap.md
+- samba-with-linux.md
+- dictionary-attack.md

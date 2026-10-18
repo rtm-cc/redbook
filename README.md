@@ -1,12 +1,14 @@
 # 📕 The Red Book
 
-> _Only by knowing evil can you truly fight against it_ 👿
+This repository contains **The Red Book**, powered by **[Zensical](https://zensical.org/)** (the modern successor to *Material for MkDocs*) for a fast, pure-Markdown documentation experience with automatic navigation discovery and instant offline search.
 
-This repository contains **The Red Book** documentation, migrated to **Astro Starlight** for a premium reading experience, modern styling, and automated deployments.
+> ℹ️ *Note: The previous Astro Starlight configuration is archived on the [`archive/astro`](https://github.com/rtm-cc/redbook/tree/archive/astro) branch.*
+
+---
 
 ## 🌐 Live Site
 
-The site is automatically built and deployed to GitHub Pages at:
+The site is automatically built and deployed to GitHub Pages via GitHub Actions:
 👉 **[https://rtm-cc.github.io/redbook/](https://rtm-cc.github.io/redbook/)**
 
 ---
@@ -15,21 +17,14 @@ The site is automatically built and deployed to GitHub Pages at:
 
 To run the documentation site on your local machine:
 
-1. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-2. **Start the local dev server:**
-   ```bash
-   npm run dev
-   ```
-3. Open **[http://localhost:4321/redbook/](http://localhost:4321/redbook/)** in your browser.
+### With `uv` (Recommended - Zero Installation)
+```bash
+uv tool run zensical serve -a 127.0.0.1:4321
+```
 
-For more details, please see the [RUN_LOCALLY.md](RUN_LOCALLY.md) guide.
+### With `npm`
+```bash
+npm run dev
+```
 
----
-
-## 🛠️ Built With
-
-- [Astro](https://astro.build/) - The web framework for content-driven websites.
-- [Starlight](https://starlight.astro.build/) - Astro's official documentation theme.
+Then visit **[http://localhost:4321/redbook/](http://localhost:4321/redbook/)** in your browser.

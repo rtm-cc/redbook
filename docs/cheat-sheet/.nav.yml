@@ -1,0 +1,8 @@
+title: 📙 Cheat Sheet
+nav:
+- curl.md
+- nmap.md
+- reverse-shells.md
+- netcat-socat.md
+- linux-privesc.md
+- windows-privesc.md
