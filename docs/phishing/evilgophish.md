@@ -2,7 +2,6 @@
 title: "evilgophish"
 ---
 
-
 [evilgophish GitHub Repository](https://github.com/fin3ss3g0d/evilgophish)
 
 evilgophish is a modified version of the Gophish phishing framework built specifically to evade detection and bypass common mail filters and security configurations.

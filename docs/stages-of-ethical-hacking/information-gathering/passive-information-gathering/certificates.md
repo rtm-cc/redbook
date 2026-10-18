@@ -2,9 +2,6 @@
 title: "Certificates"
 ---
 
-
-
-
 ## [crt.sh](http://crt.sh)
 
 [crt.sh | Certificate Search](https://crt.sh/)

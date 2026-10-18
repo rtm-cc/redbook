@@ -2,7 +2,6 @@
 title: "SMBMap"
 ---
 
-
 ## Basic sintax
 
 ```bash

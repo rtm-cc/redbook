@@ -2,7 +2,6 @@
 title: "NMAP"
 ---
 
-
 ## Host Discovery
 
 ```bash

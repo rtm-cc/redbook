@@ -2,7 +2,6 @@
 title: "Shodan"
 ---
 
-
 The Shodan Command Line Interface (CLI) is useful for automated queries and host exploration.
 
 [Shodan CLI GitHub Repository](https://github.com/achillean/shodan-python)

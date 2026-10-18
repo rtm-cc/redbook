@@ -2,7 +2,6 @@
 title: "Gophish"
 ---
 
-
 [Gophish GitHub Repository](https://github.com/gophish/gophish)
 
 Gophish is an open-source phishing framework that makes it easy to conduct internal phishing simulation campaigns.

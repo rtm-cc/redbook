@@ -2,7 +2,6 @@
 title: "netdiscover"
 ---
 
-
 Netdiscover is an active/passive address reconnaissance tool, mainly developed for those wireless networks without dhcp server, when you are wardriving. It can be also used on hub/switched networks.
 
 Built on top of libnet and libpcap, it can passively detect online hosts, or search for them, by actively sending ARP requests.

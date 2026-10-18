@@ -2,7 +2,6 @@
 title: "King Phisher"
 ---
 
-
 [King Phisher GitHub Repository](https://github.com/rsmusllp/king-phisher)
 
 King Phisher is a tool used to test and promote user security awareness by simulating real-world phishing attacks.

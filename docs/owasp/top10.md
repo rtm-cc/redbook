@@ -196,6 +196,7 @@ Giving an LLM broad permissions to execute actions without granular permission c
     If the agent has direct send capabilities without confirmation, it autonomously leaks the files.
 
 **Best Practice Defenses:**
+
 1. **Least Privilege:** Restrict model plugins to read-only where possible.
 2. **Explicit Human Confirmation:** Critical operations (deleting data, transferring funds, emailing external parties) must prompt the human user with a confirmation modal.
 3. **Deterministic Scoping:** Validate tool inputs against strict JSON schemas and verify parameters server-side before execution.

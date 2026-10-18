@@ -2,7 +2,6 @@
 title: "Samba with Linux"
 ---
 
-
 ## Enumeration
 
 With nmap `-sV` we can do an educated guess if the server is using <mark style="background-color:blue;">windows</mark> or <mark style="background-color:purple;">linux</mark>

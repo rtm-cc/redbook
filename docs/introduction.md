@@ -16,6 +16,7 @@ This project is a compilation of practical knowledge, cheatsheets, and methodolo
 In the field of cybersecurity, defending a system effectively requires a deep, hands-on understanding of how attackers operate. The primary objective of this handbook is to catalog offensive security methodologies, reconnaissance techniques, and exploitation vectors so that security teams and developers can better anticipate, identify, and mitigate real-world threats.
 
 This book serves as a structured, rapidly accessible reference guide for:
+
 *   **Ethical Hackers & Pentesters** looking for command cheatsheets and enumeration checklists.
 *   **Defensive Security Engineers (Blue Teams)** seeking to understand how vulnerabilities are discovered and exploited.
 *   **Security Enthusiasts & Researchers** seeking to learn structured hacking methodologies.

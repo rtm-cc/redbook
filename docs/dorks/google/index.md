@@ -3,9 +3,6 @@ title: "Init"
 description: ">-"
 ---
 
-
-
-
 ## Useful links
 
 * [Exploit-DB](https://www.exploit-db.com/google-hacking-database)

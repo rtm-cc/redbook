@@ -2,7 +2,6 @@
 title: "DNS Zone Transfers"
 ---
 
-
 ## DNS Enum
 
 ```bash

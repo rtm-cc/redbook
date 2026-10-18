@@ -3,12 +3,8 @@ title: "FTP"
 description: ">-"
 ---
 
-
-
-
-:::note
-Default port: **21**
-:::
+!!! note
+    Default port: **21**
 
 ### Enum
 
@@ -18,21 +14,17 @@ nmap $IP -p 21 -sV -O
 
 ### Bruteforce with Hydra
 
-
 ```shell
 hydra -L /usr/share/metasploit-framework/data/wordlists/unix_users.txt -P /usr/share/metasploit-framework/data/wordlists/unix_passwords.txt $IP ftp
 ```
-
 
 ![](../../assets/image-17.png)
 
 ### Bruteforce with Nmap
 
-
 ```shell
 nmap $IP --script ftp-brute --script-args userdb=/path/to/users -p 21
 ```
-
 
 ## Anonymous Login
 

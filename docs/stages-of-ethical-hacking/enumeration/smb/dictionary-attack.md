@@ -2,7 +2,6 @@
 title: "Dictionary Attack"
 ---
 
-
 This module will test an SMB login on a range of machines and report successful logins. If you have loaded a database plugin and connected to a database this module will record successful logins and hosts so you can track your access.
 
 ## Metasploit

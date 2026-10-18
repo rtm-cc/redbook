@@ -2,7 +2,6 @@
 title: "fping"
 ---
 
-
 Ping scan entire network, without showing errors
 
 ```bash

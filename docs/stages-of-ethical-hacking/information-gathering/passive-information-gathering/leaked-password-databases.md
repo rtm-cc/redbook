@@ -2,12 +2,9 @@
 title: "Leaked Password Databases"
 ---
 
-
 ## **';--have i been pwned?**
 
 * [https://haveibeenpwned.com](https://haveibeenpwned.com)
-
-
 
 ![](../../../assets/image-4.png)
 

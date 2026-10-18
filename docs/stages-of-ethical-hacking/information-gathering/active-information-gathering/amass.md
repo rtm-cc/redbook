@@ -2,7 +2,6 @@
 title: "Amass"
 ---
 
-
 OWASP Amass is a command-line tool used to perform passive and active network mapping and subdomain discovery.
 
 [OWASP Amass GitHub Repository](https://github.com/owasp-amass/amass)

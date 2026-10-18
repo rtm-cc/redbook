@@ -3,12 +3,8 @@ title: "SSH"
 description: ">-"
 ---
 
-
-
-
-:::note
-Default port: **22**
-:::
+!!! note
+    Default port: **22**
 
 ### Enum
 

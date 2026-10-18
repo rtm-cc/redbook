@@ -2,9 +2,6 @@
 title: "Whois Enumeration"
 ---
 
-
-
-
 WHOIS is a query and response protocol that is widely used for querying databases that store the registered users or assignees of an Internet resource, such as a domain name, an IP address block or an autonomous system, but is also used for a wider range of other information.
 
 ### Via Shell

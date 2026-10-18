@@ -2,7 +2,6 @@
 title: "Cheatsheet"
 ---
 
-
 ## **Search Filters**
 
 | Filter                                  | Description                                                                                       | Example                                             |

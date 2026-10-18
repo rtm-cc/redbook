@@ -2,7 +2,6 @@
 title: "EvilURL"
 ---
 
-
 [EvilURL GitHub Repository](https://github.com/UndeadSec/EvilURL)
 
 EvilURL is an IDN homograph attack generator tool used to generate spoofed unicode domains that look identical to legitimate target domains to deceive users in phishing campaigns.

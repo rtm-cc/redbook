@@ -3,9 +3,6 @@ title: "Nikto"
 description: ">-"
 ---
 
-
-
-
 ## Installation and introduction
 
 [Nikto GitHub Repository](https://github.com/sullo/nikto)
